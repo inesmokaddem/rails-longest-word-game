@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+.letters-block .letter {
+  padding: 10px 20px;
+  background-color: #2f86d5;
+  color: #fff;
+  margin: 10px;
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 27px;
+  border-radius: 4px;
+  -webkit-box-shadow: 3px 2px 17px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 2px 17px -2px rgba(0,0,0,0.75);
+  box-shadow: 3px 2px 17px -2px rgba(0,0,0,0.75);
+  border: 1px solid #007bff;
+}
+.new-letters h1 {
+  margin-bottom: 50px;
+}
+.new-letters .form-game {
+  margin-top: 50px;
+}
+.flex {
+  display: flex;
+}
